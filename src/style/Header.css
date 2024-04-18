@@ -1,0 +1,19 @@
+.header_container{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+header .navbar a {
+   display: inline-block;
+   font-family: Arial;
+   font-size: 1rem;
+   vertical-align: middle;
+   margin-right: 2rem;
+   text-decoration: none;
+   color: black;
+}
+
+header .navbar a:hover {
+   transform: scale(1.1, 1.1);
+}
